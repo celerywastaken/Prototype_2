@@ -49,5 +49,19 @@ public class PlayerController : MonoBehaviour
             //Launch a projectile from the Player
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
+        
     }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+            Debug.Log("Game Over");
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+            Debug.Log("");
+    }
+
 }
