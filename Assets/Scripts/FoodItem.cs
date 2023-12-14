@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveForwardFood : MonoBehaviour
+public class FoodItem : MonoBehaviour
 {
+    public int feedAmount = 5;
     public float speed = 40.0f;
-    public AnimalDirection animalDirection;
     // Start is called before the first frame update
     void Start()
     {
