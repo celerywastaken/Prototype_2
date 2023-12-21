@@ -459,8 +459,8 @@ MonoBehaviour:
   horizontalInput: 0
   verticalInput: 0
   speed: 10
-  xRange: 10
-  zRange: 10
+  xRange: 15
+  zRange: 15
   projectilePrefab: {fileID: 955706968543078761, guid: deeee827c380c324fb7c4638c12153bb, type: 3}
 --- !u!65 &343549612
 BoxCollider:
@@ -691,7 +691,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &514266576
 Transform:
   m_ObjectHideFlags: 0
@@ -745,7 +745,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.19744574, g: 0.3077682, b: 0.4811321, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -771,7 +771,7 @@ Camera:
   field of view: 45
   orthographic: 0
   orthographic size: 10
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1087,7 +1087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1618441503
 Transform:
   m_ObjectHideFlags: 0
@@ -1165,7 +1165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 326023294297094662, guid: 0705a894c998d724ba9cb56b51a49669, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4300003
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 326023294297094662, guid: 0705a894c998d724ba9cb56b51a49669, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1173,7 +1173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 326023294297094662, guid: 0705a894c998d724ba9cb56b51a49669, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.44
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 326023294297094662, guid: 0705a894c998d724ba9cb56b51a49669, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1281,6 +1281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Cow_White
       objectReference: {fileID: 0}
+    - target: {fileID: 5084242664608345822, guid: f87826d9f4842544c9fa05356d75230e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6304693513745082059, guid: f87826d9f4842544c9fa05356d75230e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.27
@@ -1338,6 +1342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Horse_Black
       objectReference: {fileID: 0}
+    - target: {fileID: 2731475863586231187, guid: e789eb1235b9e034e95b25ba1a591932, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3046543643542863849, guid: e789eb1235b9e034e95b25ba1a591932, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.43
@@ -1394,6 +1402,10 @@ PrefabInstance:
     - target: {fileID: 3428877941183332076, guid: 65f758e5da0ebc0469257f3483d23019, type: 3}
       propertyPath: m_Name
       value: Animal_Horse_Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428877941183332076, guid: 65f758e5da0ebc0469257f3483d23019, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7950962038995160557, guid: 65f758e5da0ebc0469257f3483d23019, type: 3}
       propertyPath: m_LocalPosition.x
